@@ -1,3 +1,8 @@
+#Función descriptiva
+#Complete la función simpleArraySum . Debe devolver la suma de los elementos de la matriz como un número entero.
+#simpleArraySum tiene los siguientes parámetros:
+#ar : una matriz de números enteros
+
 #!/bin/python3
 import math
 import os
