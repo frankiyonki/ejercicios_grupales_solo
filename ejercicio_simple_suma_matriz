@@ -13,15 +13,13 @@ import numpy as np
 #
 
 matriz = [input('¿que matriz quieres sumar?')]
-dimension_m = [int(len(matriz)),int(len(matriz[1]))]
-def simpleArraySum(ar):
-    ar == np.matriz
+dimension_m = [int(len(matriz)),int(len(matriz[0]))]
+def simpleArraySum(*ar):
+    global resultado
+    x = np.matrix(list(matriz))
     matriz.append
-    resultado == matriz.sum
-    print(matriz.append(0,dimension_m))
-    print(resultado)
-
-
+    print(matriz.insert(0,dimension_m))
+    print(x.sum)
 
 
 
@@ -32,3 +30,4 @@ ar = list(map(int, input().rstrip().split()))
 result = simpleArraySum(ar)
 fptr.write(str(result) + '\n')
 fptr.close()
+
